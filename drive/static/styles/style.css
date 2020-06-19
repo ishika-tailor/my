@@ -1,0 +1,413 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*-------navigation-------*/
+.nav-bar{
+
+	position: sticky;
+	top: 0;
+	display: flex;
+	z-index: 10;
+	background-color: #000000;
+	flex-direction:row;
+	flex-wrap: wrap; justify-content: center;align-items: center;
+	overflow: hidden;
+	margin: 0px;
+
+}
+
+nav-bar .navbar-brand .img{
+	height: 30px;
+	weight:30px;
+	float: left;
+}
+
+.navbar-nav ul{
+	float: right;
+}
+
+.navbar-nav li{
+	padding: 0 10px;
+	display: flex;
+	justify-content: right;
+
+}
+.navbar-nav li a{
+	float: right;
+	text-align:right;
+}
+#navbar-nav ul li a:hover{
+	color: #007bff;
+}
+.navbar{
+	background: #fff;
+	position: sticky;
+	top: 0px;
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link{
+	color: #555;
+	font-weight: 600;
+	font-size: 16px;
+}
+.navbar{
+	background-color:#ffffff;
+}
+.navbar2{
+	background-color:rgb(215,196,188);
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+/* form */
+/* The Modal (background) */
+
+ .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 8888; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      /* Modal Content/Box */
+      .modal-content {
+      background-color: #fefefe;
+      margin: 10vh auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 60%; /* Could be more or less, depending on screen size */
+      }
+      @media (min-width: 1366px) {
+      .modal-content {
+      background-color: #fefefe;
+      margin: 10vh auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 30%; /* Could be more or less, depending on screen size */
+      }
+      }
+      h2, p {
+      margin: 0 0 20px;
+      font-weight: 200;
+      color: #666;
+      left: 50%;
+      }
+      span{
+      color: #666;
+      display:block;
+      padding:0 0 5px;
+      }
+      form {
+      padding: 25px;
+      margin: 25px;
+      box-shadow: 0 2px 5px #f5f5f5;
+      background: #eee;
+      }
+      input, textarea {
+      width: calc(100% - 18px);
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #1c87c9;
+      outline: none;
+      }
+      .contact-form button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #1c87c9;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: #2371a0;
+      }
+      /* The Close Button */
+      .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+      }
+      button.button {
+      background:none;
+      border-top:none;
+      outline: none;
+      border-right:none;
+      border-left:none;
+      border-bottom:#02274a 1px solid;
+      padding:0 0 3px 0;
+      font-size:16px;
+      cursor:pointer;
+      text-align: center;
+      transform: translateX(200%);
+      width: 150px;
+      }
+      button.button:hover {
+      border-bottom:#a99567 1px solid;
+      color:#a99567;
+      text-align: center;}
+
+
+
+     h2::after {
+	content: '';
+	background:#000000;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+	color: #000000;
+}
+
+#service1{
+	text-align: center;
+	color: #000000;
+	padding-bottom: 10px;
+	background: #f1f1f1;
+	margin-bottom: 10px;
+}
+#service1 h1::after {
+	content: '';
+	background:#000000;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+	color: #000000;
+}
+.piller{
+	max-width: 1200px;
+	margin: auto;
+	padding: 35px;
+	overflow: hidden;
+}
+.pe{
+	float:left;
+	width: calc(100%/3);
+	overflow: hidden;
+	padding: 40px 0;
+}
+.pe img{
+	width: 270px;
+	height: 270px;
+	box-shadow: 5px 5px 15px #000;
+
+}
+.p-name{
+	margin: 16px 0;
+	font-size: 25px;
+	color: rgb(169,124,94);
+	font-family: serif;
+
+}
+@media screen and (max-width: 600px){
+	.pe{
+		width: 100%;
+	}
+}
+/*
+.profile-pic{
+	margin-top:25px;
+
+}
+.profile-pic .img-box{
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	height: auto;
+	float:left;
+	overflow: hidden;
+	margin-top: 10px;
+	padding: 0px;
+
+}
+.profile-pic .img-box img{
+	filter: grayscale(1);
+
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h3{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: rgb(169,124,94);
+	font-style: italic;
+}
+
+#service1{
+	text-align: center;
+	color: #000000;
+	padding-bottom: 10px;
+	margin: 2% auto;
+	width: 1170px;
+}
+#service1 h1::after {
+	content: '';
+	background:#000000;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+	color: #000000;
+}
+.team-member{
+	width: 29%;
+	height: auto;
+	float:left;
+	box-shadow: 5px 5px 15px #000;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 25px;
+	text-align: center;
+	margin: 0 5px;
+	background: #222859;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+}*/
+
+.about{
+	position: absolute;
+
+	background: #000;
+	box-shadow: 0 25px 30px rgba(0,0,0,0.5);
+	display:flex;
+}
+
+.content{
+
+	background: #ffff;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#aim{
+	text-align: center;
+	color: #000000;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 5px;
+  padding: 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar10 {
+  overflow: hidden;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
